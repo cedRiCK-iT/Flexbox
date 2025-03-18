@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+ 
+}
+
+
+header, footer {
+    background-color:slategrey;
+    text-align: center;
+    padding: 10px;
+}
+
+.body-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.application{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   border-radius: 50%;
+}
+
+.application img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 40%;
+}
